@@ -5,12 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class invokebrower {
-	public WebDriver driver;
+
+	
 	@Test
-	public void test()
+	public void test1()
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Naveen\\git\\mavenproject\\mavenproject\\src\\test\\resources\\chromedriver.exe");
-		driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.get("https://google.com");
 	}
 
