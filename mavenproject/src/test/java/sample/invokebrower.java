@@ -9,7 +9,7 @@ public class invokebrower {
 	@Test
 	public void test()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Selenium java workspace\\practiseproject\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Naveen\\git\\mavenproject\\mavenproject\\src\\test\\resources\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://google.com");
 	}
